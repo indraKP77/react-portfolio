@@ -1,0 +1,52 @@
+.footer{
+    margin: auto; 
+    margin-top: 100px;
+    width: 1100px;
+    height: 60vh;
+    border-radius: 50px;
+    background-image: none;
+    border-radius: 50px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-image: none;
+    border-radius: 50px;
+}
+
+.footer-social img{
+    height: 200px;
+    width: 150px;
+    border-radius: 50px;
+    margin-top: 30px;
+}
+
+.footer-social img:hover{
+    scale: 1.05;
+}
+
+.card {
+    width: 190px;
+    height: 254px;
+    background-image: linear-gradient(163deg, #00ff75 0%, #3700ff 100%);
+    border-radius: 20px;
+    transition: all .3s;
+    margin-left: 70px;
+   }
+   
+   .card2 {
+    width: 190px;
+    height: 254px;
+    background-color: #1a1a1a;
+    transition: all .2s;
+   }
+   
+   .card2:hover {
+    transform: scale(0.98);
+    border-radius: 20px;
+   }
+   
+   .card:hover {
+    box-shadow: 0px 0px 30px 1px rgba(0, 255, 117, 0.30);
+   }
