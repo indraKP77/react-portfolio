@@ -10,7 +10,7 @@ const Navbar = () => {
     <div className='navbar' >
       <img src={logo} alt="" />
       <ul className='navbar-menu' >
-        <a href="http://localhost:3000"  onClick={()=>setMenu("home")} className={menu==="home"?"active":""} >home</a>
+        <a href="https://indra-webdev-portfolio.netlify.app"  onClick={()=>setMenu("home")} className={menu==="home"?"active":""} >home</a>
         <a href="#projects"  onClick={()=>setMenu("projects")} className={menu==="projects"?"active":""} >projects</a>
         <a href="#footer"  onClick={()=>setMenu("social")} className={menu==="social"?"active":""} >social</a>
       </ul>
